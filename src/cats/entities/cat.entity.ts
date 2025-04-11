@@ -16,7 +16,7 @@ export class Cat {
   age: number;
 
   @Column()
-  bread: string;
+  breed: string;
 
   @DeleteDateColumn()
   deletedAt: Date
